@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+    </div>
+
+    <script id="template" type="text/x-handlebars-template">
+      <div class="playerCard">
+        <div class="profile">
+          <h2>{{playerCode}}</h2>
+          <img src="https://biografieonline.it/img/bio/Michael_Jordan.jpg">
+        </div>
+        <div class="stats">
+          <h3>Punti: <span>{{rebounds}}</span> </h3>
+          <h3>Falli: <span>{{fouls}}</span> </h3>
+          <h3>Rimbalzi: <span>{{points}}</span> </h3>
+          <h3>Tiri da 2: <span>{{twoPoints}}</span> </h3>
+          <h3>Tiri da 3: <span>{{threePoints}}</span> </h3>
+        </div>
+      </div>
+  </script>
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

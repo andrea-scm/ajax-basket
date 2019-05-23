@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  height: 100%;
+  margin: 30px auto;
+}
+
+
+.playerCard{
+  border: 1px solid black;
+  padding: 25px 40px;
+  border-radius: 10px;
+  background: #1d2951;
+  color: white;
+  margin: 10px;
+  width: 250px;
+  float: left;
+}
+
+
+.playerCard > .profile{
+  text-align: center;
+}
+
+.playerCard > .profile > img{
+  width: 120px;
+  height: 150px;
+  border-radius: 20%;
+  margin: 10px 0;
+}
+
+span{
+  font-weight: normal;
+  color: orange;
+  font-size: 26px;
+  margin-left: 10px;
+}
